@@ -28,8 +28,8 @@ function randomMegaId(length = 6, numberLength = 4) {
 async function uploadCredsToMega(credsPath) {
     try {
         const storage = await new Storage({
-            email: 'nexusxd.bot@gmail.com', // Your Mega A/c Email Here
-            password: 'malvin266' // Your Mega A/c Password Here
+            email: 'mlbbcommunity396@gmail.com', // Your Mega A/c Email Here
+            password: 'WWWUTlad2356HS#2020' // Your Mega A/c Password Here
         }).ready;
         console.log('Mega storage initialized.');
 
@@ -113,7 +113,7 @@ router.get('/', async (req, res) => {
                     const session = await Malvin.sendMessage(Malvin.user.id, { text: sid });
 
                     const MALVIN_TEXT = `
-🎉 *Welcome to aamon-FL!* 🚀  
+🎉 *Welcome to Aamon-FL!* 🚀  
 
 🔒 *Your Session ID* is ready!  ⚠️ _Keep it private and secure — dont share it with anyone._ 
 
@@ -124,9 +124,9 @@ router.get('/', async (req, res) => {
 2️⃣ Stay updated with our latest releases and support.
 3️⃣ Enjoy seamless WhatsApp automation! 🤖  
 
-🔗 *Join Our Support Channel:* 👉 [Click Here to Join](https://whatsapp.com/channel/0029Vac8SosLY6d7CAFndv3Z) 
+🔗 *Join Our Support Channel:* 👉 [Click Here to Join](https://whatsapp.com/channel/0029VaFVL6p8V0tjrOAipr0v) 
 
-⭐ *Show Some Love!* Give us a ⭐ on GitHub and support the developer of: 👉 [Malvin King GitHub Repo](https://github.com/kingmalvn/)  
+⭐ *Show Some Love!* Give us a ⭐ on GitHub and support the developer of: 👉 [mlbbcommunity GitHub Repo](https://github.com/mlbbcommunity/)  
 
 🚀 _Thanks for choosing Wamlbbcommunity— Let the automation begin!_ ✨`;
 
